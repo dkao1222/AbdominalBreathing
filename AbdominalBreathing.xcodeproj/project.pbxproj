@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		541367131F2CFB0E00965AA0 /* refresh.json in Resources */ = {isa = PBXBuildFile; fileRef = 541367121F2CFB0E00965AA0 /* refresh.json */; };
+		545BAB871F323291004883B9 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 545BAB861F323291004883B9 /* loading.json */; };
+		546F01F71F34F18F00DA43EA /* readyMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546F01F61F34F18F00DA43EA /* readyMenuViewController.swift */; };
+		54ADC0061F2CF367003D07BA /* lodingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ADC0051F2CF367003D07BA /* lodingViewController.swift */; };
+		5E39B5851F29ACF2001B24D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E39B5841F29ACF2001B24D3 /* AppDelegate.swift */; };
+		5E39B5871F29ACF2001B24D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E39B5861F29ACF2001B24D3 /* ViewController.swift */; };
+		5E39B58A1F29ACF2001B24D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E39B5881F29ACF2001B24D3 /* Main.storyboard */; };
+		5E39B58C1F29ACF2001B24D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E39B58B1F29ACF2001B24D3 /* Assets.xcassets */; };
+		5E39B58F1F29ACF2001B24D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E39B58D1F29ACF2001B24D3 /* LaunchScreen.storyboard */; };
+		5E6DDCEA1F3438BC00992378 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E6DDCE91F3438BC00992378 /* search.json */; };
+		5E6DDCEC1F3438C500992378 /* horloge.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E6DDCEB1F3438C500992378 /* horloge.json */; };
+		5E6DDCEF1F34393200992378 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E6DDCEE1F34393200992378 /* data.json */; };
+		A713BE213B152E922C332BCA /* Pods_AbdominalBreathing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F9B5C88DC31A71FCC4A137 /* Pods_AbdominalBreathing.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10A0B358C74541A465BD67E2 /* Pods-AbdominalBreathing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbdominalBreathing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AbdominalBreathing/Pods-AbdominalBreathing.debug.xcconfig"; sourceTree = "<group>"; };
+		44F9B5C88DC31A71FCC4A137 /* Pods_AbdominalBreathing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbdominalBreathing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		541367121F2CFB0E00965AA0 /* refresh.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = refresh.json; sourceTree = "<group>"; };
+		545BAB861F323291004883B9 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		546F01F61F34F18F00DA43EA /* readyMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = readyMenuViewController.swift; sourceTree = "<group>"; };
+		54ADC0051F2CF367003D07BA /* lodingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lodingViewController.swift; sourceTree = "<group>"; };
+		5E39B5811F29ACF2001B24D3 /* AbdominalBreathing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbdominalBreathing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E39B5841F29ACF2001B24D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E39B5861F29ACF2001B24D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E39B5891F29ACF2001B24D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E39B58B1F29ACF2001B24D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E39B58E1F29ACF2001B24D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E39B5901F29ACF2001B24D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E6DDCE91F3438BC00992378 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		5E6DDCEB1F3438C500992378 /* horloge.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = horloge.json; sourceTree = "<group>"; };
+		5E6DDCEE1F34393200992378 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		F8D1C40DEA34E97C7BDF829C /* Pods-AbdominalBreathing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbdominalBreathing.release.xcconfig"; path = "Pods/Target Support Files/Pods-AbdominalBreathing/Pods-AbdominalBreathing.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E39B57E1F29ACF2001B24D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A713BE213B152E922C332BCA /* Pods_AbdominalBreathing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AE25FDDDEDF640B1C165144 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10A0B358C74541A465BD67E2 /* Pods-AbdominalBreathing.debug.xcconfig */,
+				F8D1C40DEA34E97C7BDF829C /* Pods-AbdominalBreathing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E39B5781F29ACF2001B24D3 = {
+			isa = PBXGroup;
+			children = (
+				5E6DDCED1F3438D400992378 /* JSON */,
+				5E39B5831F29ACF2001B24D3 /* AbdominalBreathing */,
+				5E39B5821F29ACF2001B24D3 /* Products */,
+				5AE25FDDDEDF640B1C165144 /* Pods */,
+				BACF870C2D14D71E5F04C264 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E39B5821F29ACF2001B24D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E39B5811F29ACF2001B24D3 /* AbdominalBreathing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E39B5831F29ACF2001B24D3 /* AbdominalBreathing */ = {
+			isa = PBXGroup;
+			children = (
+				5E39B5841F29ACF2001B24D3 /* AppDelegate.swift */,
+				5E39B5861F29ACF2001B24D3 /* ViewController.swift */,
+				5E39B5881F29ACF2001B24D3 /* Main.storyboard */,
+				5E39B58B1F29ACF2001B24D3 /* Assets.xcassets */,
+				5E39B58D1F29ACF2001B24D3 /* LaunchScreen.storyboard */,
+				5E39B5901F29ACF2001B24D3 /* Info.plist */,
+				54ADC0051F2CF367003D07BA /* lodingViewController.swift */,
+				546F01F61F34F18F00DA43EA /* readyMenuViewController.swift */,
+			);
+			path = AbdominalBreathing;
+			sourceTree = "<group>";
+		};
+		5E6DDCED1F3438D400992378 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				541367121F2CFB0E00965AA0 /* refresh.json */,
+				545BAB861F323291004883B9 /* loading.json */,
+				5E6DDCEE1F34393200992378 /* data.json */,
+				5E6DDCE91F3438BC00992378 /* search.json */,
+				5E6DDCEB1F3438C500992378 /* horloge.json */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		BACF870C2D14D71E5F04C264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44F9B5C88DC31A71FCC4A137 /* Pods_AbdominalBreathing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E39B5801F29ACF2001B24D3 /* AbdominalBreathing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E39B5931F29ACF2001B24D3 /* Build configuration list for PBXNativeTarget "AbdominalBreathing" */;
+			buildPhases = (
+				437BCD7BD5E798715911ECD5 /* [CP] Check Pods Manifest.lock */,
+				5E39B57D1F29ACF2001B24D3 /* Sources */,
+				5E39B57E1F29ACF2001B24D3 /* Frameworks */,
+				5E39B57F1F29ACF2001B24D3 /* Resources */,
+				E5B850D7170A1B040CBC4AE6 /* [CP] Embed Pods Frameworks */,
+				6DFEA1CD668FB5BA57A8FED0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbdominalBreathing;
+			productName = AbdominalBreathing;
+			productReference = 5E39B5811F29ACF2001B24D3 /* AbdominalBreathing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E39B5791F29ACF2001B24D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = KaoDragon;
+				TargetAttributes = {
+					5E39B5801F29ACF2001B24D3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QJ66SET8M7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5E39B57C1F29ACF2001B24D3 /* Build configuration list for PBXProject "AbdominalBreathing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E39B5781F29ACF2001B24D3;
+			productRefGroup = 5E39B5821F29ACF2001B24D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E39B5801F29ACF2001B24D3 /* AbdominalBreathing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E39B57F1F29ACF2001B24D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E39B58F1F29ACF2001B24D3 /* LaunchScreen.storyboard in Resources */,
+				5E39B58C1F29ACF2001B24D3 /* Assets.xcassets in Resources */,
+				5E6DDCEA1F3438BC00992378 /* search.json in Resources */,
+				5E6DDCEF1F34393200992378 /* data.json in Resources */,
+				545BAB871F323291004883B9 /* loading.json in Resources */,
+				5E6DDCEC1F3438C500992378 /* horloge.json in Resources */,
+				5E39B58A1F29ACF2001B24D3 /* Main.storyboard in Resources */,
+				541367131F2CFB0E00965AA0 /* refresh.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		437BCD7BD5E798715911ECD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6DFEA1CD668FB5BA57A8FED0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AbdominalBreathing/Pods-AbdominalBreathing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5B850D7170A1B040CBC4AE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AbdominalBreathing/Pods-AbdominalBreathing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E39B57D1F29ACF2001B24D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54ADC0061F2CF367003D07BA /* lodingViewController.swift in Sources */,
+				546F01F71F34F18F00DA43EA /* readyMenuViewController.swift in Sources */,
+				5E39B5871F29ACF2001B24D3 /* ViewController.swift in Sources */,
+				5E39B5851F29ACF2001B24D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E39B5881F29ACF2001B24D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E39B5891F29ACF2001B24D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E39B58D1F29ACF2001B24D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E39B58E1F29ACF2001B24D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E39B5911F29ACF2001B24D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E39B5921F29ACF2001B24D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E39B5941F29ACF2001B24D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A0B358C74541A465BD67E2 /* Pods-AbdominalBreathing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QJ66SET8M7;
+				INFOPLIST_FILE = AbdominalBreathing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkao1222.gmail.AbdominalBreathing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5E39B5951F29ACF2001B24D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D1C40DEA34E97C7BDF829C /* Pods-AbdominalBreathing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QJ66SET8M7;
+				INFOPLIST_FILE = AbdominalBreathing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkao1222.gmail.AbdominalBreathing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E39B57C1F29ACF2001B24D3 /* Build configuration list for PBXProject "AbdominalBreathing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E39B5911F29ACF2001B24D3 /* Debug */,
+				5E39B5921F29ACF2001B24D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E39B5931F29ACF2001B24D3 /* Build configuration list for PBXNativeTarget "AbdominalBreathing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E39B5941F29ACF2001B24D3 /* Debug */,
+				5E39B5951F29ACF2001B24D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E39B5791F29ACF2001B24D3 /* Project object */;
+}
